@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 25px;
+  background: #fff;
+}
+
+/*Proges bar*/
+.progres_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ced4da;
+  margin-bottom: 1rem;
+  padding: 5px 5px;
+}
+
+.step_num {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.progres_text_1 {
+  color: green;
+}
+
+.progres_text_2 {
+  color: blue;
+}
+
+.link1 {
+  width: 40px;
+  height: 2px;
+}
+
+.link2 {
+  border-top: 1px dashed gray;
+  width: 40px;
+  height: 2px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.default {
+  background-color: white;
+}
+
+/*Form*/
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.text_container {
+  margin-bottom: 1rem;
+}
+select {
+  padding: 3px 5px;
+  border-radius: 8px;
+}
+.flex_left {
+  width: 100%;
+}
+.form_element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.check_container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.text_black {
+  margin-left: 10px;
+}
+
+.button_container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button_blue {
+  background-color: rgba(81, 70, 238, 255);
+  color: #fff;
+}
